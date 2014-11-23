@@ -34,8 +34,9 @@ public class WeatherView extends JFrame implements IModelListener, IView {
         content.add(mUpdateBtn);
         content.add(new JLabel("Temperature"));
         content.add(mTemperatureTf);
-        content.add(new JLabel("Wind speed"));
+        content.add(new JLabel("°C   Wind speed"));
         content.add(mWindTf);
+        content.add(new JLabel("m/s"));
 
         // Finalize layout
         this.setContentPane(content);

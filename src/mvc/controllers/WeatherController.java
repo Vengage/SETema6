@@ -94,7 +94,7 @@ public class WeatherController implements IController {
             String[] weather = weatherAction.getWeatherData();
             try {
                 // Update the model
-                mModel.setTemperatureValue(Float.parseFloat(weather[0]));
+                mModel.setTemperatureValue(Float.parseFloat(weather[0]) - (float)275.15);
             } catch (NumberFormatException e) {
                 throw new InputException(weather[0], e.getMessage());
             }
