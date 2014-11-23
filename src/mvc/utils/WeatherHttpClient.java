@@ -7,7 +7,7 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 
 /**
- * Created by Cosovanu Vasile on 11/23/2014.
+ * Created by Cosovanu Vasile on 23/11/2014.
  *
  * Class for getting data from the openweathermap api
  */

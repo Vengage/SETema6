@@ -1,7 +1,7 @@
 package mvc.exceptions;
 
 /**
- * Created by John on 18/11/2014.
+ * Created by Cosovanu Vasile on 18/11/2014.
  *
  * This class implements the exception thrown when the format of the input is inappropriate
  */

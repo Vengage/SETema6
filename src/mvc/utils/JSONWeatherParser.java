@@ -5,7 +5,7 @@ import org.json.JSONException;
 import org.json.JSONObject;
 
 /**
- * Created by Cosovanu Vasile on 11/23/2014.
+ * Created by Cosovanu Vasile on 23/11/2014.
  *
  * Class for parsing the data returned by the http client
  */

@@ -9,7 +9,7 @@ import java.util.List;
 public class WeatherModel {
 
     // Constants
-    public static final String INITIAL_VALUE = "200";
+    public static final String INITIAL_VALUE = "0";
 
     // Member variable defining state of calculator, the total current value
     private float temperature;

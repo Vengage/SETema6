@@ -33,7 +33,6 @@ public class WeatherController implements IController {
             // Make the operation
             try {
                 JButton source = (JButton) event.getSource();
-                //System.out.println(source.getActionCommand() + " " + source.getAction().getValue(ACTION_UPDATE).toString());
                 if (source != null) {
                     makeOperation();
                 } else {

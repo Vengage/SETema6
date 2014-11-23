@@ -4,7 +4,6 @@ import mvc.interfaces.IController;
 import mvc.interfaces.IModelListener;
 import mvc.interfaces.IView;
 import mvc.model.WeatherModel;
-import mvc.utils.WeatherAction;
 
 import javax.swing.*;
 import java.awt.*;
